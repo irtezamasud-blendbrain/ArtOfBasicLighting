@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.40236738, g: 0.5229936, b: 0.6226415, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.013
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 486871374}
-  m_IndirectSpecularColor: {r: 0.12936673, g: 0.25594887, b: 0.30407405, a: 1}
+  m_IndirectSpecularColor: {r: 0.12936673, g: 0.25594887, b: 0.30407408, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1056,7 +1056,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &885792195
 Transform:
   m_ObjectHideFlags: 0
