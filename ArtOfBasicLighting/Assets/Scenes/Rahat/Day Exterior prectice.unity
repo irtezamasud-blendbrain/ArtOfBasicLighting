@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 486871374}
-  m_IndirectSpecularColor: {r: 0.24364865, g: 0.24688658, b: 0.25440115, a: 1}
+  m_IndirectSpecularColor: {r: 0.2470403, g: 0.25329503, b: 0.25602502, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -402,14 +402,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 486871372}
-  m_LocalRotation: {x: 0.11759144, y: -0.5501435, z: 0.12815025, w: 0.81675696}
+  m_LocalRotation: {x: 0.122459866, y: -0.49651214, z: 0.07588749, w: 0.8559909}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 653076065}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 19.456, y: -67.092, z: 4.864}
+  m_LocalEulerAnglesHint: {x: 16.559, y: -60.159, z: 0.497}
 --- !u!108 &486871374
 Light:
   m_ObjectHideFlags: 0
@@ -432,8 +432,8 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.5
-    m_Bias: 0.05
-    m_NormalBias: 0.4
+    m_Bias: 0
+    m_NormalBias: 0.317
     m_NearPlane: 0.2
     m_CullingMatrixOverride:
       e00: 1
@@ -464,7 +464,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 54.8
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -548,14 +548,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 510103214}
-  m_LocalRotation: {x: -0.0016311578, y: 0.9792354, z: 0.0073209833, w: 0.20258787}
-  m_LocalPosition: {x: -10.583994, y: 4.16232, z: 25.032532}
+  m_LocalRotation: {x: -0.0021381543, y: 0.9627075, z: 0.007189283, w: 0.2704404}
+  m_LocalPosition: {x: -13.99, y: 1.73, z: 25.032532}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -0.859, y: 148.618, z: -0.013}
 --- !u!1 &618860942
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +601,7 @@ ReflectionProbe:
   m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 512
   m_UpdateFrequency: 0
   m_BoxSize: {x: 167.65117, y: 54.52403, z: 166.48627}
   m_BoxOffset: {x: -3.6271286, y: 6.866064, z: 4.5854645}
@@ -1329,14 +1329,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164462831}
-  m_LocalRotation: {x: 0.103241794, y: -0.65801364, z: 0.09177519, w: 0.7402274}
-  m_LocalPosition: {x: -9.056, y: -7.14, z: 30.01}
+  m_LocalRotation: {x: 0.11134911, y: -0.5861287, z: 0.08174918, w: 0.7983556}
+  m_LocalPosition: {x: -8.97, y: -7.14, z: 30.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 653076065}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 15.88, y: -83.27, z: 0}
+  m_LocalEulerAnglesHint: {x: 15.88, y: -72.57, z: 0}
 --- !u!108 &1164462833
 Light:
   m_ObjectHideFlags: 0
@@ -1348,7 +1348,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9960785, g: 0.9176471, b: 0.6784314, a: 1}
   m_Intensity: 2
   m_Range: 10.254085
   m_SpotAngle: 59.411007
@@ -1424,7 +1424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241198846}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -33.73, y: -3.87, z: 4.83}
+  m_LocalPosition: {x: -31.54, y: -3.87, z: 5.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1444,10 +1444,10 @@ ReflectionProbe:
   m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 512
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 13.628351, y: 10, z: 12.13645}
-  m_BoxOffset: {x: 0.22346783, y: 0, z: 1.0682249}
+  m_BoxSize: {x: 14.033398, y: 10, z: 12.13645}
+  m_BoxOffset: {x: 0.020944595, y: 0, z: 1.0682249}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -1494,7 +1494,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1927834566}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.61, y: -3.53, z: 28.25}
+  m_LocalPosition: {x: -6.56, y: -9.3, z: 28.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1514,10 +1514,10 @@ ReflectionProbe:
   m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 512
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 26.477163, y: 7.9654326, z: 10}
-  m_BoxOffset: {x: -8.23858, y: -3.1884701, z: 0}
+  m_BoxSize: {x: 27.846806, y: 8.160476, z: 10}
+  m_BoxOffset: {x: -7.553758, y: 3.324366, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -1564,7 +1564,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955879212}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.37, z: 13.19}
+  m_LocalPosition: {x: 0, y: -6.68, z: 13.19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1584,10 +1584,10 @@ ReflectionProbe:
   m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 512
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 18.622665, y: 6.249576, z: 10}
-  m_BoxOffset: {x: 1.1326046, y: -1.875212, z: 0}
+  m_BoxSize: {x: 18.622665, y: 7.9877954, z: 10}
+  m_BoxOffset: {x: 1.1326046, y: -1.0061023, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000
   m_ShadowDistance: 100
@@ -1985,7 +1985,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2035178459}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.12, y: -7.95, z: 44.74}
+  m_LocalPosition: {x: -8.12, y: -9.896, z: 44.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2005,7 +2005,7 @@ ReflectionProbe:
   m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 512
   m_UpdateFrequency: 0
   m_BoxSize: {x: 14.3173275, y: 10, z: 13.101044}
   m_BoxOffset: {x: -1.1293726, y: 0, z: -0.2881775}
@@ -2070,7 +2070,7 @@ ReflectionProbe:
   m_Mode: 1
   m_RefreshMode: 0
   m_TimeSlicingMode: 0
-  m_Resolution: 128
+  m_Resolution: 512
   m_UpdateFrequency: 0
   m_BoxSize: {x: 56.239086, y: 25.120586, z: 65.540985}
   m_BoxOffset: {x: 2.9048824, y: 0.28597498, z: 2.2474136}
